@@ -60,6 +60,7 @@ def name_and_population
   execute(<<-SQL)
     SELECT
       name, population/1000000
+    From
     
   SQL
 end
