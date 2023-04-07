@@ -16,6 +16,7 @@ def example_select
       population
     FROM
       countries
+      
     WHERE
       name = 'France'
   SQL
